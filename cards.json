@@ -87,7 +87,7 @@
    "question" : "In a Java abstract class, which of the following kinds of method declarations are legal?",
    "correct_choices" : ["<code>private void someMethod(){}</code>","<code>protected abstract void someMethod();</code>"],
    "distractors" : ["<code>private abstract void someMethod();</code>"],
-   "answer_comment" : undefined,
+   "answer_comment" : "",
 },
 {
    "keywords" : ["#java_lang"],
@@ -102,7 +102,7 @@
    "question" : "Is anything wrong with this Java code?\n<pre>\ninterface CanPrint {\n   static default void printNum() {\n      System.out.println(\"4\");\n   }\n}\n</pre>",
    "correct_choices" : ["<code>default</code> and <code>static</code> cannot be combined"],
    "distractors" : ["<code>static</code> is not allowed in an interface","it compiles without issue"],
-   "answer_comment" : undefined,
+   "answer_comment" : "",
 },
 {
    "keywords" : ["#java_lang","#inheritance"],
@@ -129,7 +129,7 @@
    "question" : "What is the result of the following Java code?\n<pre class='text-left'>\nclass Animal {\n  public static void doSomething(){\n    System.out.println(\"go\");\n  }\n}\nclass Rat {\n  Animal animal;\n  public static void main (String args[]) {\n    animal.doSomething();\n  }\n}\n</pre>",
    "correct_choices" : ["It outputs \"go\"."],
    "distractors" : ["It throws a NullPointerException.","It will not compile."],
-   "answer_comment" : undefined,
+   "answer_comment" : "",
 },
 {
    "keywords" : ["#java_lang","#inheritance","#abstract_classes"],
@@ -138,7 +138,7 @@
    "question" : "A Java abstract class may...",
    "correct_choices" : ["define abstract methods with the <code>abstract</code> keyword.","define final methods with the <code>final</code> keyword."],
    "distractors" : ["define default methods with the <code>default</code> keyword.","define an <code>abstract static</code> method."],
-   "answer_comment" : undefined,
+   "answer_comment" : "",
 },
 {
    "keywords" : ["#java_lang","#syntax"],
@@ -147,7 +147,7 @@
    "question" : "In Java, which of these can only be hidden and not overridden?",
    "correct_choices" : ["static methods","private methods","public variables"],
    "distractors" : ["protected methods"],
-   "answer_comment" : undefined,
+   "answer_comment" : "",
 },
 {
    "keywords" : ["#java_lang","#interfaces"],
@@ -162,7 +162,7 @@
    "question" : "If a Java class SomeClass has a static method go(), and if someClass is an instance of the class, can you invoke the static method from the instance of the class using <code>someClass.go()</code>?",
    "correct_choices" : ["Yes.  It compiles with warnings, and it will execute without issue."],
    "distractors" : ["No.  It will not compile.","No.  It will compile, but it will throw a runtime exception.","Yes.  It compiles and runs without issue."],
-   "answer_comment" : undefined,
+   "answer_comment" : "",
 },
 {
    "keywords" : ["#java_lang","#interfaces"],
@@ -195,7 +195,7 @@
    "question" : "Suppose Boy is a Java Class that extends Man, and Boy overrides the public method <code>play()</code>.  If boy is a Boy object and we set <code>Man man = boy</code>, then what happens when we call <code>man.play()</code>?",
    "correct_choices" : ["The <code>play()</code> method defined in Boy is invoked."],
    "distractors" : ["The <code>play()</code> method defined in Man is invoked."],
-   "answer_comment" : undefined,
+   "answer_comment" : "",
 },
 {
    "keywords" : ["#java_lang"],
@@ -204,7 +204,7 @@
    "question" : "What is the result of the following Java code?\n<code><pre>class Boy {}\nclass Man {}\nBoy boy = new Boy();\nMan man = (Man) boy;</pre></code>",
    "correct_choices" : ["Will not compile.  Cannot cast from Boy to Man."],
    "distractors" : ["Throws a ClassCastException at runtime.","Will not compile.  Class body cannot be empty."],
-   "answer_comment" : undefined,
+   "answer_comment" : "",
 },
 {
    "keywords" : ["#java_lang","#OCA_exam","#dates_times"],
@@ -222,7 +222,7 @@
    "question" : "In Java, the character '$' is BLANK in an identifier.",
    "correct_choices" : ["allowed anywhere"],
    "distractors" : ["allowed, but cannot be the first character","not valid anywhere"],
-   "answer_comment" : undefined,
+   "answer_comment" : "",
 },
 {
    "keywords" : ["#java_lang","#OCA_exam","#stringbuilder"],
@@ -231,7 +231,7 @@
    "question" : "The StringBuilder append method returns&hellip;",
    "correct_choices" : ["a reference to the StringBuilder object."],
    "distractors" : ["void.","the resulting String object."],
-   "answer_comment" : undefined,
+   "answer_comment" : "",
 },
 {
    "keywords" : ["#java_lang","#exceptions"],
@@ -240,7 +240,7 @@
    "question" : "In Java, if a subclass overrides a method <code>doSomething</code> and the superclass method declares <code>throws SomeException</code>, then which of the statements below are correct regarding which exceptions the subclass method may declare?",
    "correct_choices" : ["The subclass method may declare any subclass of <code>SomeException</code>","The subclass method may declare any unchecked exception."],
    "distractors" : ["The subclass method may declare any exception."],
-   "answer_comment" : undefined,
+   "answer_comment" : "",
 },
 {
    "keywords" : ["#java_lang","#exceptions"],
@@ -273,7 +273,7 @@
    "question" : "T/F In the Java try-catch-finally structure, if a finally statement is included, it must be last.",
    "correct_choices" : ["true"],
    "distractors" : ["false"],
-   "answer_comment" : undefined,
+   "answer_comment" : "",
 },
 {
    "keywords" : ["#java_lang","#exceptions"],
@@ -289,7 +289,7 @@
    "question" : "In Java, are the curly braces required for try and catch blocks?",
    "correct_choices" : ["yes"],
    "distractors" : ["no"],
-   "answer_comment" : undefined,
+   "answer_comment" : "",
 },
 {
    "keywords" : ["#java_lang","#exceptions"],
@@ -310,7 +310,7 @@
    "question" : "In Java, does code in a <code>finally</code> block execute if there is an exception in the <code>try</code> block that is not caught?",
    "correct_choices" : ["yes"],
    "distractors" : ["no"],
-   "answer_comment" : undefined,
+   "answer_comment" : "",
 },
 {
    "keywords" : ["#java_lang","#exceptions"],
@@ -367,7 +367,7 @@
    "question" : "What is the result of this Java code? <code>int num = 5; String output = num + 1;</code>",
    "correct_choices" : ["does not compile"],
    "distractors" : ["output = 6","output = '51'","output = '6'"],
-   "answer_comment" : undefined,
+   "answer_comment" : "",
 },
 {
    "keywords" : ["#java_lang","#OCA_exam"],
@@ -580,7 +580,7 @@
    "question" : "Which of these are valid Java identifiers?",
    "correct_choices" : ["_helloWorld","apple$","Public"],
    "distractors" : ["2130_s","java.lang","true"],
-   "answer_comment" : undefined,
+   "answer_comment" : "",
 },
 {
    "keywords" : ["#java_lang"],
@@ -589,7 +589,7 @@
    "question" : "Which of these characters may appear anywhere in a valid Java identifier?",
    "correct_choices" : ["$","_ (underscore)","letters"],
    "distractors" : ["digits","@","?"],
-   "answer_comment" : undefined,
+   "answer_comment" : "",
 },
 {
    "keywords" : ["#java_lang"],
@@ -598,7 +598,7 @@
    "question" : "Which of the following are legal entry point methods in Java?",
    "correct_choices" : ["public static void main( String[] args)","public static final void main (String[] args)"],
    "distractors" : ["public static main(String[] args)","public static void final main (String[] args)"],
-   "answer_comment" : undefined,
+   "answer_comment" : "",
 },
 {
    "keywords" : ["#java_lang","#operating_systems","#threads"],
@@ -637,7 +637,7 @@
    "question" : "In Java, if an object has a String field and you do not set it but you attempt to print it, then what happens?",
    "correct_choices" : ["Print output is 'null'."],
    "distractors" : ["It throws an exception.","Print output is an empty string \"\".","It will not compile."],
-   "answer_comment" : undefined,
+   "answer_comment" : "",
 },
 {
    "keywords" : ["#java_lang","#java_swing"],
