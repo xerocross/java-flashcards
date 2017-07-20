@@ -1,4 +1,82 @@
 [{
+   "keywords" : ["#java_lang","#java_core","#java_time"],
+   "type" : "fill_blank",
+   "version" : 0.1,
+   "generator" : "For a Java.time.LocalDate object, we can call ??<code>.getMonth()</code>?? to get the month.  For example, if the Month is January, this returns ??\"JANUARY\"??."
+},
+{
+   "keywords" : ["#java_lang","#java_core","#java_time"],
+   "type" : "fill_blank",
+   "version" : 0.1,
+   "generator" : "For a Java.time.LocalDate object, we can call ??<code>.getDayOfWeek()</code>?? to get the day of the week.  For example, if the day would be Monday, this returns ??\"MONDAY\"??."
+},
+{
+   "keywords" : ["#java_lang","#java_core","#java_time"],
+   "type" : "fill_blank",
+   "version" : 0.1,
+   "generator" : "The <code>Period.ofDays(int num)</code> and <code>Period.ofWeeks(int num)</code> methods cannot be chained because these methods are ??static?? and each one returns ??a new Period object??."
+},
+{
+   "keywords" : ["#java_lang","#java_core","#java_time"],
+   "type" : "fill_blank",
+   "version" : 0.1,
+   "generator" : "To create a new object of the class java.time.Period with a given number <code>num</code> of days we use the method ??Period.ofDays(num)</code>??.  Similarly for weeks and months."
+},
+{
+   "keywords" : ["#java_lang","#java_core","#java_time"],
+   "type" : "fill_blank",
+   "version" : 0.1,
+   "generator" : "To create a new LocalDate with a given month, we can use the Enum for months called ??Month??: for example, for January we write ??Month.JANUARY??."
+},
+{
+   "keywords" : ["#java_lang","#java_core","#java_util"],
+   "type" : "custom",
+   "version" : 0.1,
+   "front_side" : "In Java, to create a <code>List&lt;E&gt;</code> backed by an array <code>E[]</code> we can use the method...",
+   "back_side" : "<code>Arrays.asList(E[] array)</code> in Java.util"
+},
+{
+   "keywords" : ["#java_lang","#java_core"],
+   "type" : "custom",
+   "version" : 0.1,
+   "front_side" : "To convert an <code>ArrayList&lt;E&gt; list</code> into an array of type <code>E[]</code> we can use&hellip;",
+   "back_side" : "<code>list.toArray(new E[0])</code>.  Java will create a new array of type E[] to fill."
+},
+{
+   "keywords" : ["#java_lang","#java_core"],
+   "type" : "custom",
+   "version" : 0.1,
+   "front_side" : "What does the ArrayList method <code>remove(Object o)</code> do?",
+   "back_side" : "It removes the first matching value from the list (using <code>equals</code>) if it exists.  Returns false if there isn't one."
+},
+{
+   "keywords" : ["#java_lang","#java_core"],
+   "type" : "multi_choice",
+   "version" : 0.1,
+   "question" : "What is the method for pushing /adding/putting a new element onto the end of a Java ArrayList?",
+   "correct_choices" : [ 
+      "<code>add(E elt)</code>"
+   ],
+   "distractors" : [ 
+      "<code>put(E elt)</code>",
+      "<code>push(E elt)</code>"
+   ],
+   "answer_comment" : ""
+},
+{
+   "keywords" : ["#java_lang","#java_core"],
+   "type" : "custom",
+   "version" : 0.1,
+   "front_side" : "What does the ArrayList constructor <code>ArrayList(ArrayList other)</code> do?",
+   "back_side" : "It copies the size and content of <code>ArrayList other</code> into a new ArrayList."
+},
+{
+   "keywords" : ["#java_lang","#java_core"],
+   "type" : "fill_blank",
+   "version" : 0.1,
+   "generator" : "The ArrayList class is in package ??java.util??."
+},
+{
    "keywords" : ["#java_lang","#inheritance"],
    "type" : "custom",
    "version" : 0.1,
@@ -21,7 +99,7 @@
    "answer_comment" : ""
 },
 {
-   "keywords" : ["#java_lang"],
+   "keywords" : ["#java_lang","#syntax"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "The case expressions in a Java switch branch must be ??compile-time constants??."
@@ -783,7 +861,7 @@
    "generator" : "In Java, the top-level containers JFrame, JApplet, JWindow, and JDialog inherit from the ??AWT?? classes Component and Container, so they are called ??heavyweight??."
 },
 {
-   "keywords" : ["#java_lang","#java_arrays"],
+   "keywords" : ["#java_lang","#arrays"],
    "type" : "custom",
    "version" : 0.1,
    "front_side" : "In Java, what are the differences between <code>int[]&nbsp;a</code>, <code>int&nbsp;[]a</code>, and <code>int&nbsp;a[]</code>?",
