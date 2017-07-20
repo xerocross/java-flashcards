@@ -1,34 +1,40 @@
 [{
+   "id" : 1361,
    "keywords" : ["#java_lang","#java_core","#java_time"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "For a Java.time.LocalDate object, we can call ??<code>.getMonth()</code>?? to get the month.  For example, if the Month is January, this returns ??\"JANUARY\"??."
 },
 {
+   "id" : 1360,
    "keywords" : ["#java_lang","#java_core","#java_time"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "For a Java.time.LocalDate object, we can call ??<code>.getDayOfWeek()</code>?? to get the day of the week.  For example, if the day would be Monday, this returns ??\"MONDAY\"??."
 },
 {
+   "id" : 1359,
    "keywords" : ["#java_lang","#java_core","#java_time"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "The <code>Period.ofDays(int num)</code> and <code>Period.ofWeeks(int num)</code> methods cannot be chained because these methods are ??static?? and each one returns ??a new Period object??."
 },
 {
+   "id" : 1358,
    "keywords" : ["#java_lang","#java_core","#java_time"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "To create a new object of the class java.time.Period with a given number <code>num</code> of days we use the method ??Period.ofDays(num)</code>??.  Similarly for weeks and months."
 },
 {
+   "id" : 1357,
    "keywords" : ["#java_lang","#java_core","#java_time"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "To create a new LocalDate with a given month, we can use the Enum for months called ??Month??: for example, for January we write ??Month.JANUARY??."
 },
 {
+   "id" : 1356,
    "keywords" : ["#java_lang","#java_core","#java_util"],
    "type" : "custom",
    "version" : 0.1,
@@ -36,6 +42,7 @@
    "back_side" : "<code>Arrays.asList(E[] array)</code> in Java.util"
 },
 {
+   "id" : 1355,
    "keywords" : ["#java_lang","#java_core"],
    "type" : "custom",
    "version" : 0.1,
@@ -43,6 +50,7 @@
    "back_side" : "<code>list.toArray(new E[0])</code>.  Java will create a new array of type E[] to fill."
 },
 {
+   "id" : 1354,
    "keywords" : ["#java_lang","#java_core"],
    "type" : "custom",
    "version" : 0.1,
@@ -50,6 +58,7 @@
    "back_side" : "It removes the first matching value from the list (using <code>equals</code>) if it exists.  Returns false if there isn't one."
 },
 {
+   "id" : 1353,
    "keywords" : ["#java_lang","#java_core"],
    "type" : "multi_choice",
    "version" : 0.1,
@@ -64,6 +73,7 @@
    "answer_comment" : ""
 },
 {
+   "id" : 1352,
    "keywords" : ["#java_lang","#java_core"],
    "type" : "custom",
    "version" : 0.1,
@@ -71,12 +81,14 @@
    "back_side" : "It copies the size and content of <code>ArrayList other</code> into a new ArrayList."
 },
 {
+   "id" : 1351,
    "keywords" : ["#java_lang","#java_core"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "The ArrayList class is in package ??java.util??."
 },
 {
+   "id" : 1338,
    "keywords" : ["#java_lang","#inheritance"],
    "type" : "custom",
    "version" : 0.1,
@@ -84,6 +96,7 @@
    "back_side" : "Calls a constructor of the same class with matching parameters."
 },
 {
+   "id" : 1337,
    "keywords" : ["#java_lang","#syntax"],
    "type" : "multi_choice",
    "version" : 0.1,
@@ -99,18 +112,21 @@
    "answer_comment" : ""
 },
 {
+   "id" : 1334,
    "keywords" : ["#java_lang","#syntax"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "The case expressions in a Java switch branch must be ??compile-time constants??."
 },
 {
+   "id" : 1332,
    "keywords" : ["#java_lang","#OCA_exam","#oca_study_guide","#boyarski_ch1"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "A Java import with a wildcard such as <code>import java.time.*</code> imports all classes contained in the directory, but it does not import classes contained in ??subdirectories??."
 },
 {
+   "id" : 1330,
    "keywords" : ["#java_lang","#syntax"],
    "type" : "multi_choice",
    "version" : 0.1,
@@ -125,42 +141,49 @@
    "answer_comment" : "A .java file can have at most one public class, but it is OK for it to have no public class as in this example."
 },
 {
+   "id" : 1329,
    "keywords" : ["#java_lang","#syntax"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "A Javadoc comment begins with ??<code>/**</code>?? and ends with ??<code>*/</code>??.  Each line in between begins with ??<code>*</code>??."
 },
 {
+   "id" : 1328,
    "keywords" : ["#java_lang","#syntax"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "In Java, a multiline comment begins with ??<code>/*</code>?? and ends with ??<code>*/</code>??."
 },
 {
+   "id" : 1327,
    "keywords" : ["#java_lang","#syntax"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "In Java, a single-line comment begins with ??<code>//</code>??."
 },
 {
+   "id" : 1326,
    "keywords" : ["#java_lang","#vocabulary"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "The Java keyword used to indicate that nothing is returned from a method is ??<code>void</code>??."
 },
 {
+   "id" : 1325,
    "keywords" : ["#java_lang","#vocabulary"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "The full declaration of a Java method is called a ??method signature??."
 },
 {
+   "id" : 1321,
    "keywords" : ["#java_lang","#dates_times"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "The java class DateTimeFormatter is in the ??java.time.format?? package."
 },
 {
+   "id" : 1320,
    "keywords" : ["#java_lang"],
    "type" : "multi_choice",
    "version" : 0.1,
@@ -175,6 +198,7 @@
    "answer_comment" : ""
 },
 {
+   "id" : 1318,
    "keywords" : ["#java_lang","#class_design"],
    "type" : "multi_choice",
    "version" : 0.1,
@@ -186,15 +210,17 @@
    "distractors" : [ 
       "<code>private abstract void someMethod();</code>"
    ],
-   "answer_comment" : ""
+   "answer_comment" : undefined
 },
 {
+   "id" : 1317,
    "keywords" : ["#java_lang"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "In Java, a static final variable may be initialized on the same line it is declared OR inside a ??static initializer??."
 },
 {
+   "id" : 1316,
    "keywords" : ["#java_lang","#interfaces"],
    "type" : "multi_choice",
    "version" : 0.1,
@@ -206,27 +232,31 @@
       "<code>static</code> is not allowed in an interface",
       "it compiles without issue"
    ],
-   "answer_comment" : ""
+   "answer_comment" : undefined
 },
 {
+   "id" : 1315,
    "keywords" : ["#java_lang","#inheritance"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "Static methods in Java interfaces must be accessed using the ??interface name??: that is, they are not ??inherited?? by classes that implement the interface."
 },
 {
+   "id" : 1314,
    "keywords" : ["#java_lang"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "A Java default method may only be declared in a/an ??interface??."
 },
 {
+   "id" : 1313,
    "keywords" : ["#java_lang","#interfaces"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "Java interface variables are assumed to have the modifiers ??public??, ??static?? and ??final??."
 },
 {
+   "id" : 1312,
    "keywords" : ["#java_lang","#inheritance","#abstract_classes"],
    "type" : "multi_choice",
    "version" : 0.1,
@@ -238,9 +268,10 @@
       "It throws a NullPointerException.",
       "It will not compile."
    ],
-   "answer_comment" : ""
+   "answer_comment" : undefined
 },
 {
+   "id" : 1311,
    "keywords" : ["#java_lang","#inheritance","#abstract_classes"],
    "type" : "multi_choice",
    "version" : 0.1,
@@ -253,9 +284,10 @@
       "define default methods with the <code>default</code> keyword.",
       "define an <code>abstract static</code> method."
    ],
-   "answer_comment" : ""
+   "answer_comment" : undefined
 },
 {
+   "id" : 1310,
    "keywords" : ["#java_lang","#syntax"],
    "type" : "multi_choice",
    "version" : 0.1,
@@ -268,15 +300,17 @@
    "distractors" : [ 
       "protected methods"
    ],
-   "answer_comment" : ""
+   "answer_comment" : undefined
 },
 {
+   "id" : 1309,
    "keywords" : ["#java_lang","#interfaces"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "In Java, of abstract classes and interfaces, only interfaces may contain ??default?? methods."
 },
 {
+   "id" : 1308,
    "keywords" : ["#java_lang","#static_methods"],
    "type" : "multi_choice",
    "version" : 0.1,
@@ -289,33 +323,38 @@
       "No.  It will compile, but it will throw a runtime exception.",
       "Yes.  It compiles and runs without issue."
    ],
-   "answer_comment" : ""
+   "answer_comment" : undefined
 },
 {
+   "id" : 1307,
    "keywords" : ["#java_lang","#interfaces"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "For a Java class to inherit from a superclass, we write that it ??<code>extends</code>?? the class."
 },
 {
+   "id" : 1306,
    "keywords" : ["#java_lang","#interfaces"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "For a Java class to inherit from an interface, we write that it ??<code>implements</code>?? the interface."
 },
 {
+   "id" : 1305,
    "keywords" : ["#java_lang","#interfaces"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "Adding any of the modifiers ??private??, ??protected??, or ??final?? to a Java interface method will trigger a compiler error."
 },
 {
+   "id" : 1304,
    "keywords" : ["#java_lang","#interfaces"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "All nondefault methods in a Java interface are assumed to have the modifiers ??abstract?? and ??public?? in their definitions."
 },
 {
+   "id" : 1302,
    "keywords" : ["#java_lang"],
    "type" : "multi_choice",
    "version" : 0.1,
@@ -326,9 +365,10 @@
    "distractors" : [ 
       "The <code>play()</code> method defined in Man is invoked."
    ],
-   "answer_comment" : ""
+   "answer_comment" : undefined
 },
 {
+   "id" : 1301,
    "keywords" : ["#java_lang"],
    "type" : "multi_choice",
    "version" : 0.1,
@@ -340,9 +380,10 @@
       "Throws a ClassCastException at runtime.",
       "Will not compile.  Class body cannot be empty."
    ],
-   "answer_comment" : ""
+   "answer_comment" : undefined
 },
 {
+   "id" : 1299,
    "keywords" : ["#java_lang","#OCA_exam","#dates_times"],
    "type" : "multi_choice",
    "version" : 0.1,
@@ -358,6 +399,7 @@
    "answer_comment" : "The method is <code>.plusDays(int)</code>.  It returns a new LocalDate.  The LocalDate object is immutable."
 },
 {
+   "id" : 1298,
    "keywords" : ["#java_lang","#syntax","#OCA_exam"],
    "type" : "multi_choice",
    "version" : 0.1,
@@ -369,9 +411,10 @@
       "allowed, but cannot be the first character",
       "not valid anywhere"
    ],
-   "answer_comment" : ""
+   "answer_comment" : undefined
 },
 {
+   "id" : 1297,
    "keywords" : ["#java_lang","#OCA_exam","#stringbuilder"],
    "type" : "multi_choice",
    "version" : 0.1,
@@ -383,9 +426,10 @@
       "void.",
       "the resulting String object."
    ],
-   "answer_comment" : ""
+   "answer_comment" : undefined
 },
 {
+   "id" : 462,
    "keywords" : ["#java_lang","#exceptions"],
    "type" : "multi_choice",
    "version" : 0.1,
@@ -397,33 +441,38 @@
    "distractors" : [ 
       "The subclass method may declare any exception."
    ],
-   "answer_comment" : ""
+   "answer_comment" : undefined
 },
 {
+   "id" : 460,
    "keywords" : ["#java_lang","#exceptions"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "Java's NumberFormatException is a subclass of ??IllegalArgumentException??."
 },
 {
+   "id" : 459,
    "keywords" : ["#java_lang","#exceptions"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "In Java, if you try to parse an invalid string into a number type, it will throw a/an ??NumberFormatException??."
 },
 {
+   "id" : 458,
    "keywords" : ["#java_lang"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "In Java, to get the length of an array, use ??<code>arr.length</code>??&mdash;which is a ??field??, not a ??method??."
 },
 {
+   "id" : 457,
    "keywords" : ["#java_lang","#exceptions"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "In Java, if you catch a superclass exception before a subclass exception, then the block for catching the subclass is ??unreachable?? and therefore the code ??does not compile??."
 },
 {
+   "id" : 456,
    "keywords" : ["#java_lang","#exceptions"],
    "type" : "multi_choice",
    "version" : 0.1,
@@ -434,9 +483,10 @@
    "distractors" : [ 
       "false"
    ],
-   "answer_comment" : ""
+   "answer_comment" : undefined
 },
 {
+   "id" : 455,
    "keywords" : ["#java_lang","#exceptions"],
    "type" : "custom",
    "version" : 0.1,
@@ -444,6 +494,7 @@
    "back_side" : "no.  The try and catch blocks require curly braces."
 },
 {
+   "id" : 454,
    "keywords" : ["#java_lang","#exceptions"],
    "type" : "multi_choice",
    "version" : 0.1,
@@ -454,21 +505,24 @@
    "distractors" : [ 
       "no"
    ],
-   "answer_comment" : ""
+   "answer_comment" : undefined
 },
 {
+   "id" : 453,
    "keywords" : ["#java_lang","#exceptions"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "In Java, the classes Exception and Error are both subclasses of ??Throwable??."
 },
 {
+   "id" : 452,
    "keywords" : ["#java_lang","#exceptions"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "In Java, if you ask for an array element and the index does not exist, this throws a/an ??ArrayIndexOutOfBoundsException??."
 },
 {
+   "id" : 451,
    "keywords" : ["#java_lang","#exceptions"],
    "type" : "multi_choice",
    "version" : 0.1,
@@ -479,57 +533,66 @@
    "distractors" : [ 
       "no"
    ],
-   "answer_comment" : ""
+   "answer_comment" : undefined
 },
 {
+   "id" : 450,
    "keywords" : ["#java_lang","#exceptions"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "In Java, division by zero throws a/an ??ArithmeticException??."
 },
 {
+   "id" : 449,
    "keywords" : ["#java_lang","#exceptions"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "In Java, you can declare exceptions whether checked or ??unchecked??."
 },
 {
+   "id" : 448,
    "keywords" : ["#java_lang","#exceptions"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "In Java, a try statement is required to have a catch clause and/or ??a finally clause??."
 },
 {
+   "id" : 434,
    "keywords" : ["#java_lang","#input_output"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "The Java class File is defined in package ??java.io??."
 },
 {
+   "id" : 433,
    "keywords" : ["#java_lang","#input_output"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "System.out is an instance of class ??PrintStream??, which derives from ??OutputStream??."
 },
 {
+   "id" : 432,
    "keywords" : ["#java_lang","#input_output"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "System.in is an instance of ??InputStream??, which is a ??byte stream??."
 },
 {
+   "id" : 431,
    "keywords" : ["#java_lang","#input_output"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "The classes at the top of the character stream hierarchies are ??Reader?? and ??Writer??."
 },
 {
+   "id" : 430,
    "keywords" : ["#java_lang","#input_output"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "The top two classes in the Java byte stream hierarchy are ??InputStream?? and ??OutputStream??."
 },
 {
+   "id" : 428,
    "keywords" : ["#java_lang","#syntax"],
    "type" : "multi_choice",
    "version" : 0.1,
@@ -542,213 +605,248 @@
       "output = '51'",
       "output = '6'"
    ],
-   "answer_comment" : ""
+   "answer_comment" : undefined
 },
 {
+   "id" : 425,
    "keywords" : ["#java_lang","#OCA_exam"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "In Java, if you define <code>String str1 =\n \"Java\"; String str2 =\n \"Java\";</code>, then <code>str1 == str2</code> evaluates ??true?? because of Java's ??String pool??."
 },
 {
+   "id" : 423,
    "keywords" : ["#java_lang","#OCA_exam"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "In Java, instance variables&mdash;but not local variables&mdash;are automatically ??assigned default values??."
 },
 {
+   "id" : 422,
    "keywords" : ["#java_lang","#OCA_exam"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "In Java, unlike instance variables, local variables must be ??assigned values?? before they are ??referenced??."
 },
 {
+   "id" : 421,
    "keywords" : ["#java_lang","#OCA_exam","#lambdas"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "The Java expression <code>Duck d ->\n d.quack()</code> will not compile because it requires ??parentheses around <code>Duck d</code>??."
 },
 {
+   "id" : 420,
    "keywords" : ["#java_lang","#OCA_exam","#functional_programming"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "ArrayLists have a method <code>.removeIf</code> that accepts a ??Predicate?? argument and removes all the elements where the ??Predicate evaluates true??."
 },
 {
+   "id" : 419,
    "keywords" : ["#java_lang","#OCA_exam","#functional_programming"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "The Java Predicate interface, defined in ??java.util.function?? specifies a single boolean method named ??test??."
 },
 {
+   "id" : 418,
    "keywords" : ["#java_lang","#syntax"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "The notation for a Java T vararg parameter named varName is ??<code>T... varName</code>??."
 },
 {
+   "id" : 417,
    "keywords" : ["#java_lang","#syntax"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "A Java vararg parameter must be the ??last element?? in its parameter list."
 },
 {
+   "id" : 414,
    "keywords" : ["#java_lang","#syntax","#OCA_exam"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "There is a ??<code>default</code>?? keyword in Java, but it is not used for access control."
 },
 {
+   "id" : 413,
    "keywords" : ["#java_lang","#OCA_exam","#dates_times"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "The class DateTimeFormatter is in the package ??java.time.format??."
 },
 {
+   "id" : 412,
    "keywords" : ["#java_lang","#OCA_exam","#dates_times"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "In Java, LocalDateTime objects have the method ??<code>.toEpochSeconds()</code>?? for getting the epoch in seconds."
 },
 {
+   "id" : 411,
    "keywords" : ["#java_lang","#OCA_exam","#dates_times"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "In addition to the <code>.plusDays(int)</code> method, LocalDate objects also have ??<code>.plusWeeks(int)</code>??, ??<code>.plusMonths(int)</code>?? and ??<code>.plusYears(int)</code>?? for adding time intervals."
 },
 {
+   "id" : 410,
    "keywords" : ["#java_lang","#OCA_exam","#dates_times"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "To add days to a LocalDate date, you can do <code>date = ??date.plusDays(num)??</code> but beware a LocalDate object is ??immutable??."
 },
 {
+   "id" : 409,
    "keywords" : ["#java_lang","#OCA_exam","#dates_times"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "If you try to run <code>LocalDate.of(invalidDate)</code>, like Jan 32, 2015, Java throws a ??DateTimeException??."
 },
 {
+   "id" : 408,
    "keywords" : ["#java_lang","#OCA_exam","#dates_times"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "The Java class LocalDateTime is defined in package ??java.time??."
 },
 {
+   "id" : 407,
    "keywords" : ["#java_lang","#OCA_exam","#dates_times"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "The three new Java date and time classes are ??LocalDate??, ??LocalTime?? and ??LocalDateTime??."
 },
 {
+   "id" : 406,
    "keywords" : ["#java_lang","#OCA_exam","#dates_times"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "The Java line <code>LocalDate d = new LocalDate();</code> will not compile because LocalDate ??has no public constructor??."
 },
 {
+   "id" : 405,
    "keywords" : ["#java_lang","#OCA_exam","#dates_times"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "Java's LocalDate, LocalTime and LocalDateTime classes only have ??private?? constructors, so to get a date or time object, you are forced to use the supplied ??static?? methods."
 },
 {
+   "id" : 404,
    "keywords" : ["#java_lang","#OCA_exam","#dates_times"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "When creating a Java LocalDate object, months are represented by integers starting from ??1??; so for example January is ??1?? and February is ??2??."
 },
 {
+   "id" : 403,
    "keywords" : ["#java_lang","#OCA_exam","#dates_times"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "In Java, to create a LocalDate with a specific year, month, and day, we call ??<code>LocalDate.of(year, month, day)</code>??."
 },
 {
+   "id" : 402,
    "keywords" : ["#java_lang","#OCA_exam","#dates_times"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "In Java, to create a LocalDate, LocalTime, or LocalDateTime set to the current date and/or time, call the static ??<code>.now()</code>?? method."
 },
 {
+   "id" : 401,
    "keywords" : ["#java_lang","#OCA_exam"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "Java's ??LocalDateTime?? class contains both a date and time but no time zone."
 },
 {
+   "id" : 400,
    "keywords" : ["#java_lang","#OCA_exam"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "Java's ??LocalTime?? class contains just a time&mdash;no date and no time zone."
 },
 {
+   "id" : 399,
    "keywords" : ["#java_lang","#OCA_exam"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "Java's ??LocalDate?? class contains just a date&mdash;no time and no time zone."
 },
 {
+   "id" : 394,
    "keywords" : ["#java_lang","#swing"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "In an ActionMailer method, you send the mail by using the ??mail?? method along with options ??to: someAddress?? and ??subject: someSubject??."
 },
 {
+   "id" : 393,
    "keywords" : ["#java_lang","#swing"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "The Swing container ??JScrollPane?? automatically provides scrolling for its contents."
 },
 {
+   "id" : 391,
    "keywords" : ["#java_lang","#swing"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "The Swing checkbox class is ??JCheckBox??."
 },
 {
+   "id" : 390,
    "keywords" : ["#java_lang","#swing"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "In Java, use ??<code>setActionCommand(someText)</code>?? on a JButton or JTextField to assign it a string for identification by the event listener."
 },
 {
+   "id" : 389,
    "keywords" : ["#java_lang","#swing"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "In Swing, when an ActionListener's <code>actionPerformed()</code> method gets called, it is processed on the ??event dispatching?? thread."
 },
 {
+   "id" : 388,
    "keywords" : ["#java_lang","#swing"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "The ActionListener interface is defined in the ??java.awt.event?? package."
 },
 {
+   "id" : 387,
    "keywords" : ["#java_lang","#swing"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "The FlowLayout class is contained in the ??java.awt?? package."
 },
 {
+   "id" : 386,
    "keywords" : ["#java_lang","#swing"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "To start a Swing GUI, we invoke it on the ??event dispatch?? thread."
 },
 {
+   "id" : 385,
    "keywords" : ["#java_lang","#swing"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "When an ActionListener receives a click from a JButton, you can call ??<code>getActionCommand()</code>?? on the event to get the ??text?? of the button."
 },
 {
+   "id" : 384,
    "keywords" : ["#java_lang","#swing"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "The ActionListener interface defines only one method: ??<code>actionPerformed</code>??, which takes the argument ??<code>ActionEvent ae</code>??"
 },
 {
+   "id" : 382,
    "keywords" : ["#java_lang","#syntax"],
    "type" : "multi_choice",
    "version" : 0.1,
@@ -763,10 +861,11 @@
       "java.lang",
       "true"
    ],
-   "answer_comment" : ""
+   "answer_comment" : undefined
 },
 {
-   "keywords" : ["#java_lang"],
+   "id" : 381,
+   "keywords" : ["#java_lang","#syntax"],
    "type" : "multi_choice",
    "version" : 0.1,
    "question" : "Which of these characters may appear anywhere in a valid Java identifier?",
@@ -780,9 +879,10 @@
       "@",
       "?"
    ],
-   "answer_comment" : ""
+   "answer_comment" : undefined
 },
 {
+   "id" : 380,
    "keywords" : ["#java_lang"],
    "type" : "multi_choice",
    "version" : 0.1,
@@ -795,39 +895,45 @@
       "public static main(String[] args)",
       "public static void final main (String[] args)"
    ],
-   "answer_comment" : ""
+   "answer_comment" : undefined
 },
 {
+   "id" : 373,
    "keywords" : ["#java_lang","#operating_systems","#threads"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "In Java to create a new thread either we create a ??Thread class?? and override its ??run()?? method or we define a class that implements the ??Runnable interface??."
 },
 {
+   "id" : 372,
    "keywords" : ["#java_lang","#operating_systems","#threads"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "In Java, you set a Thread to be a daemon thread by calling ??<code>.setDaemon(true)</code>?? on that object."
 },
 {
+   "id" : 371,
    "keywords" : ["#java_lang","#operating_systems","#threads"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "Java does not distinguish between a thread that is running and a thread in the ??runnable?? state."
 },
 {
+   "id" : 370,
    "keywords" : ["#java_lang","#operating_systems","#threads"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "In a Java Thread object, the ??run()?? method defines the action of the thread, but we call ??.start()?? to actually create the thread and make it runnable."
 },
 {
+   "id" : 367,
    "keywords" : ["#java_lang","#swing"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "Swing was developed as a response to limitations in using ??heavyweight?? components, meaning OS-native GUI components."
 },
 {
+   "id" : 366,
    "keywords" : ["#java_lang","#syntax"],
    "type" : "multi_choice",
    "version" : 0.1,
@@ -840,28 +946,32 @@
       "Print output is an empty string \"\".",
       "It will not compile."
    ],
-   "answer_comment" : ""
+   "answer_comment" : undefined
 },
 {
+   "id" : 365,
    "keywords" : ["#java_lang","#swing"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "The standard Java Swing classes are defined in the package ??javax.swing??"
 },
 {
+   "id" : 364,
    "keywords" : ["#java_lang"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "In Java, the method for getting the length of a String is ??<code>.length()</code>??"
 },
 {
+   "id" : 363,
    "keywords" : ["#java_lang","#swing"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "In Java, the top-level containers JFrame, JApplet, JWindow, and JDialog inherit from the ??AWT?? classes Component and Container, so they are called ??heavyweight??."
 },
 {
-   "keywords" : ["#java_lang","#arrays"],
+   "id" : 307,
+   "keywords" : ["#java_lang","#java_core"],
    "type" : "custom",
    "version" : 0.1,
    "front_side" : "In Java, what are the differences between <code>int[]&nbsp;a</code>, <code>int&nbsp;[]a</code>, and <code>int&nbsp;a[]</code>?",
