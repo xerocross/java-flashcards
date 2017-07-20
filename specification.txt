@@ -1,19 +1,52 @@
-#java_lang
-  The Java programming language.
-  #semantics
-    Top-level language design features that are about the meanings associated to symbols rather than arrangement (which is #syntax)
-  #class_design
-    Top-level rules for writing classes, abstract classes, interfaces, etc.
-  #java_core
-    Core Java language constructs and packages such as java.util, java.time, and important classes found in them.
-  #syntax
-    Syntax of the Java language.
-  #vocabulary
-    Words and keywords idiomatic of the Java language.
-  #swing
-    Cards related to the Java Swing package and related techniques.
-  #java_time
-    The java.time package and classes.
-  #input_output
-    Input and output streams, file in and out features.
+TOPICS 
+  #This section is still in progress
+  * Basics of Java syntax, semantics and data structures.
+    > #java_lang #syntax
+      1337 Use of anonymous array initializer.
+      1330 Emply class body is acceptable.
+      1329 Structure of javadoc comment.
+      1327 Structure of multi-line comment
+      1298, 382, 381 Valid identifiers.
+      418, 417 How to format a vararg parameter.
+      307 Notation for declaring an array.
+    > #java_lang #semantics
+      
+
+      
+      
+
+SCHEMAS
+  "multi_choice" :
+    "question" : "string"
+    "correct_choices" : "string[]"
+    "distractors" : "string[]"
+    "answer_comment" : "string"
+  "fill_blank" :
+    "generator": "string"
+  "custom" :
+    "front_side" : "string"
+    "back_side" : "string"
+
+
+KEYWORDS
+  #java_lang
+    The Java programming language.
+    #semantics
+      Top-level language design features that are about the meanings associated to symbols rather than arrangement (which is #syntax)
+    #class_design
+      Top-level rules for writing classes, abstract classes, interfaces, etc.
+    #java_core
+      Core Java language constructs and packages such as java.util, java.time, and important classes found in them.
+    #syntax
+      Syntax of the Java language.
+    #vocabulary
+      Words and keywords idiomatic of the Java language.
+    #swing
+      Cards related to the Java Swing package and related techniques.
+    #java_time
+      The java.time package and classes.
+    #input_output
+      Input and output streams, file in and out features.
+    #interfaces
+      About the rules for creating and using Java interfaces
     
