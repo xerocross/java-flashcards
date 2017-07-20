@@ -1,0 +1,19 @@
+#java_lang
+  The Java programming language.
+  #semantics
+    Top-level language design features that are about the meanings associated to symbols rather than arrangement (which is #syntax)
+  #class_design
+    Top-level rules for writing classes, abstract classes, interfaces, etc.
+  #java_core
+    Core Java language constructs and packages such as java.util, java.time, and important classes found in them.
+  #syntax
+    Syntax of the Java language.
+  #vocabulary
+    Words and keywords idiomatic of the Java language.
+  #swing
+    Cards related to the Java Swing package and related techniques.
+  #java_time
+    The java.time package and classes.
+  #input_output
+    Input and output streams, file in and out features.
+    
