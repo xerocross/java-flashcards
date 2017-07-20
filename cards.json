@@ -97,7 +97,7 @@
 },
 {
    "id" : 1337,
-   "keywords" : ["#java_lang","#syntax"],
+   "keywords" : ["#java_lang","#syntax","#java_core"],
    "type" : "multi_choice",
    "version" : 0.1,
    "question" : "Identify any compile problems with this Java code\n<pre>\n3  public static void main(String [] main) {\n4    int []arr = {6, 8, 9};\n5    int arr2[] = new int[] {5, 6, 7};\n6    int arr3 [] = new int[4] {5, 6, 7, 9}; \n7  }\n</pre>",
@@ -113,14 +113,14 @@
 },
 {
    "id" : 1334,
-   "keywords" : ["#java_lang","#syntax"],
+   "keywords" : ["#java_lang","#semantics"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "The case expressions in a Java switch branch must be ??compile-time constants??."
 },
 {
    "id" : 1332,
-   "keywords" : ["#java_lang","#OCA_exam","#oca_study_guide","#boyarski_ch1"],
+   "keywords" : ["#java_lang","#semantics"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "A Java import with a wildcard such as <code>import java.time.*</code> imports all classes contained in the directory, but it does not import classes contained in ??subdirectories??."
@@ -210,7 +210,6 @@
    "distractors" : [ 
       "<code>private abstract void someMethod();</code>"
    ],
-   "answer_comment" : undefined
 },
 {
    "id" : 1317,
@@ -232,7 +231,6 @@
       "<code>static</code> is not allowed in an interface",
       "it compiles without issue"
    ],
-   "answer_comment" : undefined
 },
 {
    "id" : 1315,
@@ -268,7 +266,6 @@
       "It throws a NullPointerException.",
       "It will not compile."
    ],
-   "answer_comment" : undefined
 },
 {
    "id" : 1311,
@@ -284,7 +281,6 @@
       "define default methods with the <code>default</code> keyword.",
       "define an <code>abstract static</code> method."
    ],
-   "answer_comment" : undefined
 },
 {
    "id" : 1310,
@@ -300,7 +296,6 @@
    "distractors" : [ 
       "protected methods"
    ],
-   "answer_comment" : undefined
 },
 {
    "id" : 1309,
@@ -323,7 +318,6 @@
       "No.  It will compile, but it will throw a runtime exception.",
       "Yes.  It compiles and runs without issue."
    ],
-   "answer_comment" : undefined
 },
 {
    "id" : 1307,
@@ -365,7 +359,6 @@
    "distractors" : [ 
       "The <code>play()</code> method defined in Man is invoked."
    ],
-   "answer_comment" : undefined
 },
 {
    "id" : 1301,
@@ -380,7 +373,6 @@
       "Throws a ClassCastException at runtime.",
       "Will not compile.  Class body cannot be empty."
    ],
-   "answer_comment" : undefined
 },
 {
    "id" : 1299,
@@ -411,7 +403,6 @@
       "allowed, but cannot be the first character",
       "not valid anywhere"
    ],
-   "answer_comment" : undefined
 },
 {
    "id" : 1297,
@@ -426,7 +417,6 @@
       "void.",
       "the resulting String object."
    ],
-   "answer_comment" : undefined
 },
 {
    "id" : 462,
@@ -441,7 +431,6 @@
    "distractors" : [ 
       "The subclass method may declare any exception."
    ],
-   "answer_comment" : undefined
 },
 {
    "id" : 460,
@@ -483,7 +472,6 @@
    "distractors" : [ 
       "false"
    ],
-   "answer_comment" : undefined
 },
 {
    "id" : 455,
@@ -505,7 +493,6 @@
    "distractors" : [ 
       "no"
    ],
-   "answer_comment" : undefined
 },
 {
    "id" : 453,
@@ -533,7 +520,6 @@
    "distractors" : [ 
       "no"
    ],
-   "answer_comment" : undefined
 },
 {
    "id" : 450,
@@ -605,7 +591,6 @@
       "output = '51'",
       "output = '6'"
    ],
-   "answer_comment" : undefined
 },
 {
    "id" : 425,
@@ -861,7 +846,6 @@
       "java.lang",
       "true"
    ],
-   "answer_comment" : undefined
 },
 {
    "id" : 381,
@@ -879,7 +863,6 @@
       "@",
       "?"
    ],
-   "answer_comment" : undefined
 },
 {
    "id" : 380,
@@ -895,7 +878,6 @@
       "public static main(String[] args)",
       "public static void final main (String[] args)"
    ],
-   "answer_comment" : undefined
 },
 {
    "id" : 373,
@@ -946,7 +928,6 @@
       "Print output is an empty string \"\".",
       "It will not compile."
    ],
-   "answer_comment" : undefined
 },
 {
    "id" : 365,
@@ -957,7 +938,7 @@
 },
 {
    "id" : 364,
-   "keywords" : ["#java_lang"],
+   "keywords" : ["#java_lang","#java_core"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "In Java, the method for getting the length of a String is ??<code>.length()</code>??"
@@ -971,7 +952,7 @@
 },
 {
    "id" : 307,
-   "keywords" : ["#java_lang","#java_core"],
+   "keywords" : ["#java_lang","#syntax"],
    "type" : "custom",
    "version" : 0.1,
    "front_side" : "In Java, what are the differences between <code>int[]&nbsp;a</code>, <code>int&nbsp;[]a</code>, and <code>int&nbsp;a[]</code>?",
