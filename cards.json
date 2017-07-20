@@ -112,6 +112,21 @@
    "answer_comment" : ""
 },
 {
+   "id" : 1336,
+   "keywords" : ["#java_lang","#inheritance"],
+   "type" : "multi_choice",
+   "version" : 0.1,
+   "question" : "If a class Deer declares\n<pre>private boolean hasAntlers() {return false;}</pre>\nand a subclass Reindeer declares\n<pre>public boolean hasAntlers() {return true;}</pre>\nthen what happens if a method inside the Deer class does the following?\n<pre>\nDeer deer = new Reindeer(); // the constructor exists\nSystem.out.println(deer.hasAntlers());\n</pre>",
+   "correct_choices" : [ 
+      "Outputs \"false\" because the method <code>hasAntlers()</code> in Deer is hidden, not overridden, and it is called from inside the Deer class."
+   ],
+   "distractors" : [ 
+      "Outputs \"false\" because the <code>deer</code> variable has type Deer, so it calls the method inside Deer.",
+      "Outputs \"true\" because Reindeer overrides <code>hasAntlers()</code>."
+   ],
+   "answer_comment" : ""
+},
+{
    "id" : 1334,
    "keywords" : ["#java_lang","#semantics"],
    "type" : "fill_blank",
@@ -184,7 +199,7 @@
 },
 {
    "id" : 1320,
-   "keywords" : ["#java_lang"],
+   "keywords" : ["#java_lang","#stringbuilder","#java_core"],
    "type" : "multi_choice",
    "version" : 0.1,
    "question" : "Consider this Java code:\n<pre>StringBuilder sb1 = new StringBuilder(\"apple\");\nStringBuilder sb2 = new StringBuilder(\"apple\");</pre>\nWhich evaluates true?",
@@ -284,7 +299,7 @@
 },
 {
    "id" : 1310,
-   "keywords" : ["#java_lang","#syntax"],
+   "keywords" : ["#java_lang","#inheritance"],
    "type" : "multi_choice",
    "version" : 0.1,
    "question" : "In Java, which of these can only be hidden and not overridden?",
@@ -299,7 +314,7 @@
 },
 {
    "id" : 1309,
-   "keywords" : ["#java_lang","#interfaces"],
+   "keywords" : ["#java_lang","#interfaces","#class_design"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "In Java, of abstract classes and interfaces, only interfaces may contain ??default?? methods."
@@ -376,7 +391,7 @@
 },
 {
    "id" : 1299,
-   "keywords" : ["#java_lang","#OCA_exam","#dates_times"],
+   "keywords" : ["#java_lang","#java_core","#java_time"],
    "type" : "multi_choice",
    "version" : 0.1,
    "question" : "What is the result of the Java code <code >LocalDate date = LocalDate.now(); date.addDays(10);</code>?",
@@ -406,7 +421,7 @@
 },
 {
    "id" : 1297,
-   "keywords" : ["#java_lang","#OCA_exam","#stringbuilder"],
+   "keywords" : ["#java_lang","#stringbuilder","#java_core"],
    "type" : "multi_choice",
    "version" : 0.1,
    "question" : "The StringBuilder append method returns&hellip;",
@@ -579,7 +594,7 @@
 },
 {
    "id" : 428,
-   "keywords" : ["#java_lang","#syntax"],
+   "keywords" : ["#java_lang","#semantics"],
    "type" : "multi_choice",
    "version" : 0.1,
    "question" : "What is the result of this Java code? <code>int num = 5; String output = num + 1;</code>",
@@ -594,7 +609,7 @@
 },
 {
    "id" : 425,
-   "keywords" : ["#java_lang","#OCA_exam"],
+   "keywords" : ["#java_lang","#java_core","#strings"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "In Java, if you define <code>String str1 =\n \"Java\"; String str2 =\n \"Java\";</code>, then <code>str1 == str2</code> evaluates ??true?? because of Java's ??String pool??."
@@ -608,14 +623,14 @@
 },
 {
    "id" : 422,
-   "keywords" : ["#java_lang","#OCA_exam"],
+   "keywords" : ["#java_lang","#semantics"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "In Java, unlike instance variables, local variables must be ??assigned values?? before they are ??referenced??."
 },
 {
    "id" : 421,
-   "keywords" : ["#java_lang","#OCA_exam","#lambdas"],
+   "keywords" : ["#java_lang","#syntax","#lambdas"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "The Java expression <code>Duck d ->\n d.quack()</code> will not compile because it requires ??parentheses around <code>Duck d</code>??."
@@ -629,7 +644,7 @@
 },
 {
    "id" : 419,
-   "keywords" : ["#java_lang","#OCA_exam","#functional_programming"],
+   "keywords" : ["#java_lang","#functional_programming","#java_util_function"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "The Java Predicate interface, defined in ??java.util.function?? specifies a single boolean method named ??test??."
@@ -650,42 +665,42 @@
 },
 {
    "id" : 414,
-   "keywords" : ["#java_lang","#syntax","#OCA_exam"],
+   "keywords" : ["#java_lang","#semantics"],
    "type" : "fill_blank",
    "version" : 0.1,
-   "generator" : "There is a ??<code>default</code>?? keyword in Java, but it is not used for access control."
+   "generator" : "To specify ??default?? access on a class member in Java, we  use no modifier.\nThere is a ??<code>default</code>?? keyword in Java, but it is not used for access control."
 },
 {
    "id" : 413,
-   "keywords" : ["#java_lang","#OCA_exam","#dates_times"],
+   "keywords" : ["#java_lang","#java_core","#java_time"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "The class DateTimeFormatter is in the package ??java.time.format??."
 },
 {
    "id" : 412,
-   "keywords" : ["#java_lang","#OCA_exam","#dates_times"],
+   "keywords" : ["#java_lang","#java_time"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "In Java, LocalDateTime objects have the method ??<code>.toEpochSeconds()</code>?? for getting the epoch in seconds."
 },
 {
    "id" : 411,
-   "keywords" : ["#java_lang","#OCA_exam","#dates_times"],
+   "keywords" : ["#java_lang","#java_core","#java_time"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "In addition to the <code>.plusDays(int)</code> method, LocalDate objects also have ??<code>.plusWeeks(int)</code>??, ??<code>.plusMonths(int)</code>?? and ??<code>.plusYears(int)</code>?? for adding time intervals."
 },
 {
    "id" : 410,
-   "keywords" : ["#java_lang","#OCA_exam","#dates_times"],
+   "keywords" : ["#java_lang","#java_core","#java_time"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "To add days to a LocalDate date, you can do <code>date = ??date.plusDays(num)??</code> but beware a LocalDate object is ??immutable??."
 },
 {
    "id" : 409,
-   "keywords" : ["#java_lang","#OCA_exam","#dates_times"],
+   "keywords" : ["#java_lang","#java_core","#java_time"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "If you try to run <code>LocalDate.of(invalidDate)</code>, like Jan 32, 2015, Java throws a ??DateTimeException??."
@@ -727,7 +742,7 @@
 },
 {
    "id" : 403,
-   "keywords" : ["#java_lang","#OCA_exam","#dates_times"],
+   "keywords" : ["#java_lang","#java_core","#java_time"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "In Java, to create a LocalDate with a specific year, month, and day, we call ??<code>LocalDate.of(year, month, day)</code>??."
@@ -748,7 +763,7 @@
 },
 {
    "id" : 400,
-   "keywords" : ["#java_lang","#OCA_exam"],
+   "keywords" : ["#java_lang","#java_core","#java_time"],
    "type" : "fill_blank",
    "version" : 0.1,
    "generator" : "Java's ??LocalTime?? class contains just a time&mdash;no date and no time zone."
